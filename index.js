@@ -10,3 +10,4 @@ program
   .description(`Kills rogue node process when it doesn't shutdown properly`)
   .action(killRogueProcess);
 
+program.parse(process.argv);
