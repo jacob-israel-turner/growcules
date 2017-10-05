@@ -1,0 +1,15 @@
+{
+  "name": "growcules",
+  "version": "0.0.1",
+  "description": "Grow CLI Tool",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "grow": "./index.js"
+  },
+  "author": "Growmies",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
